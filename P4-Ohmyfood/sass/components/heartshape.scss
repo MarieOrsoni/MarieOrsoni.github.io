@@ -1,0 +1,30 @@
+.btn-favorite {
+    cursor: pointer;
+    padding-bottom: 26px;
+    padding-right: 29px;
+    font-size: 25px;
+
+       & i {
+          position: absolute;
+            padding-top: 5px;
+             &__full {
+                 visibility: hidden;
+  }
+  }
+      .favorite__full {
+          opacity: 0;
+          background-image: linear-gradient(#9356dc,#ff79da);
+          -webkit-background-clip: text;
+          color: transparent;
+          transition: 2s ease-out;
+
+            &:hover , &:active   {
+                display: inline;
+                opacity: 1;
+                background-image: linear-gradient(#9356dc,#ff79da);
+                color: transparent;
+                -webkit-background-clip: text;
+                transition: 300ms ease-out;
+}
+}
+}

@@ -1,0 +1,8 @@
+.logo-container {
+  display: flex;
+  justify-content: center;
+}
+.logo-container .logo {
+  justify-content: center;
+  padding: 20px;
+}/*# sourceMappingURL=header.css.map */
